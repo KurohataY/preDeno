@@ -1,0 +1,8 @@
+{
+  "root": "App",
+  "entry": "./",
+  "options": {
+    "port": 8000,
+    "title": "your project"
+  }
+}

@@ -1,9 +1,11 @@
 version: '3'
 services:
-  centos8:
-    container_name: "centos8"
+  deno:
+    container_name: "deno"
     build: ./src/
     tty: true
     platform: linux/x86_64
     volumes:
-        - .:/preDeno
+      - .:/preDeno
+    ports:
+      - 8080:8080
